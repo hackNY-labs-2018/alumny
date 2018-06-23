@@ -1,0 +1,2 @@
+class Alum < ApplicationRecord
+end

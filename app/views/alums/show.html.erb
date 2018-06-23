@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Firstname:</strong>
+  <%= @alum.firstname %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @alum.lastname %>
+</p>
+
+<p>
+  <strong>Bio:</strong>
+  <%= @alum.bio %>
+</p>
+
+<p>
+  <strong>Hometown:</strong>
+  <%= @alum.hometown %>
+</p>
+
+<p>
+  <strong>Headshot:</strong>
+  <%= @alum.headshot %>
+</p>
+
+<%= link_to 'Edit', edit_alum_path(@alum) %> |
+<%= link_to 'Back', alums_path %>
