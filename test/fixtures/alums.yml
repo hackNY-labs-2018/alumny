@@ -5,11 +5,11 @@ one:
   lastname: MyString
   bio: MyText
   hometown: MyString
-  headshot: MyString
+  headshot_url: MyString
 
 two:
   firstname: MyString
   lastname: MyString
   bio: MyText
   hometown: MyString
-  headshot: MyString
+  headshot_url: MyString

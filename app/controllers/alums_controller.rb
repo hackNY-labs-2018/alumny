@@ -69,6 +69,6 @@ class AlumsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def alum_params
-      params.require(:alum).permit(:firstname, :lastname, :bio, :hometown, :headshot)
+      params.require(:alum).permit(:firstname, :lastname, :bio, :hometown, :headshot_url)
     end
 end

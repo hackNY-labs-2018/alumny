@@ -17,7 +17,7 @@ class AlumsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create alum" do
     assert_difference('Alum.count') do
-      post alums_url, params: { alum: { bio: @alum.bio, firstname: @alum.firstname, headshot: @alum.headshot, hometown: @alum.hometown, lastname: @alum.lastname } }
+      post alums_url, params: { alum: { bio: @alum.bio, firstname: @alum.firstname, headshot_url: @alum.headshot_url, hometown: @alum.hometown, lastname: @alum.lastname } }
     end
 
     assert_redirected_to alum_url(Alum.last)
@@ -34,7 +34,7 @@ class AlumsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update alum" do
-    patch alum_url(@alum), params: { alum: { bio: @alum.bio, firstname: @alum.firstname, headshot: @alum.headshot, hometown: @alum.hometown, lastname: @alum.lastname } }
+    patch alum_url(@alum), params: { alum: { bio: @alum.bio, firstname: @alum.firstname, headshot_url: @alum.headshot_url, hometown: @alum.hometown, lastname: @alum.lastname } }
     assert_redirected_to alum_url(@alum)
   end
 
