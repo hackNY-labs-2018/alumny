@@ -5,7 +5,7 @@ class CreateAlums < ActiveRecord::Migration[5.1]
       t.string :lastname
       t.text :bio
       t.string :hometown
-      t.string :headshot
+      t.string :headshot_url
 
       t.timestamps
     end
